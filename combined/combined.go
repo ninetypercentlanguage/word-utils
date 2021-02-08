@@ -14,10 +14,3 @@ type ContentItem struct {
 
 // Content is the content of a combined file
 type Content []ContentItem
-
-// File is the output of the wiktionary-combined program
-type File struct {
-	Word       string
-	Content    Content
-	HasContent bool
-}
